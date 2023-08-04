@@ -15,6 +15,6 @@ jobs:
         uses: grafana/k6-action@v0.3.0
         with:
           filename: script.js
-          # use this flag if you dont have configured in the case
+          # use this flag if you dont have configured in the case ##
           flags: --vus 50 --duration 10s
   
